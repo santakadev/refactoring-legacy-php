@@ -76,6 +76,16 @@ Specify a license and the PHP versions that you are supporting. If it is a legac
 ```
 By now, do not replace commited libraries. They could have modifications with respect to their official distribution, and migrating now could be time consuming. Stick with this ultli you need to upgrade some of its dependencies. In that case, only migrate the target libraries.
 
+Add composer to .travis.yml.
+
+¿Is library?:
+- Yes -> composer update
+- No -> composer install
+
+```yaml
+before_script:
+  - composer update
+```
 
 ### Setup PHPUnit
 
