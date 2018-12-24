@@ -13,12 +13,14 @@ Check if there is any "Install / Setup" documentation. If exists, try to follow 
 
 ### Setup git
 
+Why:
+- Track your changes
+
 ```git init```
 
 ### Use Docker
 
 Why:
-
 - This avoid you to install all dependencies of the project in your host machine.
 - Probably you are working with a newer version that is not supported. Downgrading versions or working with multiple versions in your host is a mesh.
 - When the app is ready for newer versions the upgrade will be fast. 
@@ -26,6 +28,10 @@ Why:
 If the legacy app has no support for newer version of PHP 
 
 ### Use Travis
+
+Why:
+- Automatic CI
+- Syntax check against all PHP versions
 
 Test PHP syntax against all PHP files:
 
@@ -71,8 +77,13 @@ Specify a license and the PHP versions that you are supporting. If it is a legac
 By now, do not replace commited libraries. They could have modifications with respect to their official distribution, and migrating now could be time consuming. Stick with this ultli you need to upgrade some of its dependencies. In that case, only migrate the target libraries.
 
 
-### Install PHPUnit
+### Setup PHPUnit
+
+Why:
+- 
 
 ### Acceptance testing
 
+Why:
+- 
 
