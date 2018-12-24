@@ -1,5 +1,8 @@
-# refactoring-legacy-php
-Practices for refactoring (PHP) legacy apps
+# Refactoring legacy PHP
+
+In an ideal world Legacy Code would not exist. In an ideal world PHP language would not exist. But here we are in a real world working with PHP Legacy Code.
+
+This are practices and techniques I've used for refactoring legacy (PHP) applications and libraries.
 
 ## Set up environment
 
