@@ -7,6 +7,10 @@ Check if there is any "Install / Setup" documentation. If exists, try to follow 
 
 ## Strategy
 
+- Test coverage
+- Know the application
+- Collect data
+
 ### Use Docker
 
 Why:
@@ -35,3 +39,7 @@ php:
   - '7.3'
 script: find . -name "*.php" -type f -exec php -l {} \;
 ```
+
+### Install PHPUnit
+
+### Acceptance testing
