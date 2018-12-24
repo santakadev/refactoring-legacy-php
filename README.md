@@ -21,11 +21,10 @@ Why:
 ### Use Docker
 
 Why:
-- This avoid you to install all dependencies of the project in your host machine.
-- Probably you are working with a newer version that is not supported. Downgrading versions or working with multiple versions in your host is a mesh.
-- When the app is ready for newer versions the upgrade will be fast. 
-
-If the legacy app has no support for newer version of PHP 
+- Avoid installing all dependencies in your host machine.
+- Avoid downgrading your PHP and other packages versions of your host.
+- Avoid working with multiple PHP and other packages versions in your host.
+- Future PHP local migraton will be faster.
 
 ### Use Travis
 
