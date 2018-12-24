@@ -4,6 +4,10 @@ In an ideal world Legacy Code would not exist. In an ideal world PHP language wo
 
 This are practices and techniques I've used for refactoring legacy (PHP) applications and libraries.
 
+## Should I refactor?
+
+TODO
+
 ## Set up environment
 
 Check if there is any "Install / Setup" documentation. If exists, try to follow and report and/or fix any issue you found in documentation or code
@@ -110,7 +114,7 @@ Make a list of all code smell that you found
 
 ### Manual code review
 
-### Tools: phploc, pdepend, phpmd, phpcpd, etc.
+### Tools: phploc, pdepend, phpmd, phpcpd, phpcs, phpcs, etc.
 
 If it is a legacy app folder structure can be a mesh. Try not to modify it by now and instead use tools options to exclude 3rd party code.
 
@@ -127,6 +131,7 @@ If it is a legacy app folder structure can be a mesh. Try not to modify it by no
 phploc --exclude external php
 pdepend --summary-xml=pdepend.xml --ignore=external php
 phpcpd --exclude external php
+phpmd --exclude external php html cleancode
 ```
 
 ### phploc
