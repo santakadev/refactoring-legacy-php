@@ -107,7 +107,26 @@ Make a list of all code smell that you found
 
 ### Manual code review
 
-### Tools: pdepend, phpmd, etc.
+### Tools: phploc, pdepend, phpmd, etc.
+
+If it is a legacy app folder structure can be a mesh. Try not to modify it by now and instead use tools options to exclude 3rd party code.
+
+```
+|-php
+   |- ctrl
+   |- external -> 3rd party libraries
+   |- inc
+   |- lib
+   |- utilities
+```
+
+```sh
+phploc --exclude external php
+```
+
+### phploc
+
+
 
 ### Setup PHPUnit
 
