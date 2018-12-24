@@ -39,7 +39,28 @@ php:
   - '7.3'
 script: find . -name "*.php" -type f -exec php -l {} \;
 ```
+### Setup composer
+
+```composer init```
+
+Specify a license and the PHP versions that you are supporting. If it is a legacy app, you should probably start supporting deprecated PHP versions.
+
+```
+{
+    "name": "santakadev/refactoring-legacy-php",
+    "license": "GPL-3.0",
+    "authors": [],
+    "require": {
+        "php": "^5.4 || ^7.0"
+    }
+}
+```
+By now, do not replace commited libraries. They could have modifications with respect to their official distribution, and migrating now could be time consuming. Stick with this ultli you need to upgrade some of its dependencies. In that case, only migrate the target libraries.
+
+If the app you are refactoring is a library add ```composer.lock``` to ```.gitignore``
 
 ### Install PHPUnit
 
 ### Acceptance testing
+
+
