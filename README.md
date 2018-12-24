@@ -110,7 +110,7 @@ Make a list of all code smell that you found
 
 ### Manual code review
 
-### Tools: phploc, pdepend, phpmd, etc.
+### Tools: phploc, pdepend, phpmd, phpcpd, etc.
 
 If it is a legacy app folder structure can be a mesh. Try not to modify it by now and instead use tools options to exclude 3rd party code.
 
@@ -126,6 +126,7 @@ If it is a legacy app folder structure can be a mesh. Try not to modify it by no
 ```sh
 phploc --exclude external php
 pdepend --summary-xml=pdepend.xml --ignore=external php
+phpcpd --exclude external php
 ```
 
 ### phploc
