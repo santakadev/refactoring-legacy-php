@@ -125,6 +125,7 @@ If it is a legacy app folder structure can be a mesh. Try not to modify it by no
 
 ```sh
 phploc --exclude external php
+pdepend --summary-xml=pdepend.xml --ignore=external php
 ```
 
 ### phploc
