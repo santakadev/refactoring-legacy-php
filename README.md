@@ -7,9 +7,12 @@ Check if there is any "Install / Setup" documentation. If exists, try to follow 
 
 ## Strategy
 
-- Test coverage
 - Know the application
 - Collect data
+- Improve documentation
+- Test coverage
+
+## Basic tools setup
 
 ### Setup git
 
@@ -86,13 +89,30 @@ before_script:
   - composer update
 ```
 
-### Setup PHPUnit
+## Code review
 
 Why:
-- 
+- Get knowlage about the code you are working on.
+- Priorize refactoring tasks.
+
+Make a list of all code smell that you found
+
+```
+- PHP and HTML code merged
+- Too long files
+- Too long functions
+- Unmeaningful names
+- Bad folder structure
+```
+
+### Manual code review
+
+### Tools: pdepend, phpmd, etc.
+
+### Setup PHPUnit
 
 ### Acceptance testing
 
-Why:
-- 
+
+
 
