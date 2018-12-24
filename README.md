@@ -36,7 +36,7 @@ Test PHP syntax against all PHP files:
 
 ```find . -name "*.php" -type f -exec php -l {} \;```
 
-```ỳaml
+```yaml
 language: php
 php:
   - '5.4'
@@ -63,7 +63,7 @@ If the app you are refactoring is a library add ```composer.lock``` to ```.gitig
 
 Specify a license and the PHP versions that you are supporting. If it is a legacy app, you should probably start supporting deprecated PHP versions.
 
-```
+```json
 {
     "name": "santakadev/refactoring-legacy-php",
     "license": "GPL-3.0",
