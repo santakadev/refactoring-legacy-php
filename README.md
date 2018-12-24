@@ -24,14 +24,14 @@ Test PHP syntax against all PHP files:
 ```find . -name "*.php" -type f -exec php -l {} \;```
 
 ```ỳaml
-    language: php
-    php:
-      - '5.4'
-      - '5.5'
-      - '5.6'
-      - '7.0'
-      - '7.1'
-      - '7.2'
-      - '7.3'
-    script: find . -name "*.php" -type f -exec php -l {} \;
+language: php
+php:
+  - '5.4'
+  - '5.5'
+  - '5.6'
+  - '7.0'
+  - '7.1'
+  - '7.2'
+  - '7.3'
+script: find . -name "*.php" -type f -exec php -l {} \;
 ```
