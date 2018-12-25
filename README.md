@@ -144,6 +144,7 @@ phploc --exclude external php
 pdepend --summary-xml=pdepend.xml --ignore=external php
 phpcpd --exclude external php
 phpmd --exclude external php html cleancode
+phpmetrics --report-html="./report" --exclude=external php
 ```
 
 ### phploc
