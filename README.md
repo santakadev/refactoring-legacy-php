@@ -4,6 +4,11 @@ In an ideal world Legacy Code would not exist. In an ideal world PHP language wo
 
 This are practices and techniques I've used for refactoring legacy (PHP) applications and libraries.
 
+## Guide style
+
+- Recomendations not 
+- My point of view
+
 ## Should I refactor?
 
 TODO
@@ -35,6 +40,14 @@ Check if there is any "Install / Setup" documentation. If exists, try to follow 
 
 - Cost / Reward chart (It has not to be in terms of money)
 - Core domain
+
+## New software arquitecture
+
+If you are refactoring the hole application to a new software arquitecture, focus on:
+- Decoupling
+- Split in modules (if necessary)
+
+Don't go too for at this point (microservices, cqrs, event sourcing, ddd, hexagonal) simply try to solve the bad design of the software that will let you on the future pivot to other arquitectures.
 
 ## Basic tools setup
 
