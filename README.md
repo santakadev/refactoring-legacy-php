@@ -142,6 +142,47 @@ phpmd --exclude external php html cleancode
 
 ### Acceptance testing
 
+### Stored procedures
+
+### No routing
+
+No routing sistem. Bunch of PHP scripts
+
+```
+index.php
+login.php
+profile.php
+...
+```
+
+Try to make small steps towards a robuts routing system.
+
+Examples:
+- Create a *index_routed.php* file 
+
+```
+<?php
+
+$routes = [
+    '/'             => 'index.php',
+    '/install'      => 'install.php',
+    '/providers'    => 'manage_providers.php'
+];
+
+$uri = isset($_GET['q']) ? $_GET['q'] : '/';
+
+if (!isset($routes[$uri])) {
+    http_response_code(404);
+    echo 'Not found';
+    return;
+}
+
+$script = $routes[$uri];
+
+require $routes[$uri];
+```
+
+- Use apache rewrite
 
 
-
+If necesary, create integration test to force new scripts to have a route
