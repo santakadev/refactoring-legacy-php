@@ -16,6 +16,14 @@ Alternatives to no refactor:
 
 Check if there is any "Install / Setup" documentation. If exists, try to follow and report and/or fix any issue you found in documentation or code
 
+## Strategies
+
+- Full refactor
+- Partial refactor
+
+- Steady refactor
+- Start over
+
 ## Strategy
 
 - Know the application
@@ -118,7 +126,7 @@ Make a list of all code smell that you found
 
 ### Manual code review
 
-### Tools: phploc, pdepend, phpmd, phpcpd, phpcs, phpcs, etc.
+### Tools: phploc, pdepend, phpmd, phpcpd, phpcs, phpcs, phpmetrics, etc.
 
 If it is a legacy app folder structure can be a mesh. Try not to modify it by now and instead use tools options to exclude 3rd party code.
 
@@ -140,13 +148,28 @@ phpmd --exclude external php html cleancode
 
 ### phploc
 
-
+### Software arquitecture review
 
 ### Setup PHPUnit
 
 ### Acceptance testing
 
 ### Stored procedures
+
+
+
+### PHP and HTML toguether
+
+- Move al calculations to functions in the beggining of file
+- Move al data to variables in the beggining of file
+
+### Missing documentation
+
+If you found something difficult to understand, but you can't change current implementation by now, add documentation to save time for the rest of developers.
+
+### No convention
+
+
 
 ### No routing
 
@@ -189,5 +212,6 @@ require $routes[$uri];
 
 - Use apache rewrite
 
+- Use routing library
 
 If necesary, create integration test to force new scripts to have a route.
