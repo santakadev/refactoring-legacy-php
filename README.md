@@ -8,6 +8,10 @@ This are practices and techniques I've used for refactoring legacy (PHP) applica
 
 TODO
 
+Alternatives to no refactor:
+- Leave it as it is
+- Start over (another form of refactor)
+
 ## Set up environment
 
 Check if there is any "Install / Setup" documentation. If exists, try to follow and report and/or fix any issue you found in documentation or code
@@ -169,6 +173,7 @@ $routes = [
     '/providers'    => 'manage_providers.php'
 ];
 
+TODO: ¿parameters and query?
 $uri = isset($_GET['q']) ? $_GET['q'] : '/';
 
 if (!isset($routes[$uri])) {
@@ -185,4 +190,4 @@ require $routes[$uri];
 - Use apache rewrite
 
 
-If necesary, create integration test to force new scripts to have a route
+If necesary, create integration test to force new scripts to have a route.
