@@ -178,6 +178,13 @@ If you found something difficult to understand, but you can't change current imp
 
 You can start thinking about how you can slice the software in different modules.
 
+### Handling UI/UX refactoring
+
+UI refactoring -> better look with same functionalities
+UX refactoring -> better user experience with same functionarlities
+
+If you are working with a legacy app, the UI/UX will be probably outdated and buggy. 
+
 ### No routing
 
 No routing sistem. Bunch of PHP scripts
