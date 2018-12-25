@@ -153,6 +153,10 @@ phpmetrics --report-html="./report" --exclude=external php
 
 ### Setup PHPUnit
 
+### Setup Codepection
+
+### Setup PHPSpec
+
 ### Acceptance testing
 
 ### Stored procedures
