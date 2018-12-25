@@ -31,6 +31,11 @@ Check if there is any "Install / Setup" documentation. If exists, try to follow 
 - Improve documentation
 - Test coverage
 
+## What should I start refactoring?
+
+- Cost / Reward chart (It has not to be in terms of money)
+- Core domain
+
 ## Basic tools setup
 
 ### Setup git
