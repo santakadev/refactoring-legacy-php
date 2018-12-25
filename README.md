@@ -151,6 +151,10 @@ phpmetrics --report-html="./report" --exclude=external php
 
 ### Software arquitecture review
 
+### Security holes
+
+Do not make public not exploit any security hold you found.
+
 ### Setup PHPUnit
 
 ### Setup Codepection
