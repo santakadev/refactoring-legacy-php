@@ -174,7 +174,9 @@ If you found something difficult to understand, but you can't change current imp
 
 ### No convention
 
+### No modules
 
+You can start thinking about how you can slice the software in different modules.
 
 ### No routing
 
