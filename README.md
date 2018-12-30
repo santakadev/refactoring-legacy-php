@@ -22,9 +22,11 @@ Check if there is any "Install / Setup" documentation. If exists, try to follow 
 
 ## Strategies
 
+Socpe:
 - Full refactor
 - Partial refactor
 
+???:
 - Steady refactor
 - Start over
 
