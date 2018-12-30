@@ -6,8 +6,7 @@ This are practices and techniques I've used for refactoring legacy (PHP) applica
 
 ## Guide style
 
-- Recomendations not 
-- My point of view
+TODO
 
 ## Should I refactor?
 
@@ -36,6 +35,8 @@ Check if there is any "Install / Setup" documentation. If exists, try to follow 
 - Improve documentation
 - Test coverage
 
+Small steps toward better (not perfect) design.
+
 ## What should I start refactoring?
 
 - Cost / Reward chart (It has not to be in terms of money)
@@ -44,7 +45,7 @@ Check if there is any "Install / Setup" documentation. If exists, try to follow 
 ## New software arquitecture
 
 If you are refactoring the hole application to a new software arquitecture, focus on:
-- Decoupling
+- Breaking dependencies (Decoupling)
 - Split in modules (if necessary)
 
 Don't go too for at this point (microservices, cqrs, event sourcing, ddd, hexagonal) simply try to solve the bad design of the software that will let you on the future pivot to other arquitectures.
@@ -66,7 +67,7 @@ Why:
 - Avoid working with multiple PHP and other packages versions in your host.
 - Future PHP local migraton will be faster.
 
-### Use Travis
+### Use Travis (or any CI tool)
 
 Why:
 - Automatic CI
@@ -178,6 +179,8 @@ Do not make public not exploit any security hold you found.
 ### Setup Codepection
 
 ### Setup PHPSpec
+
+### Setup Behat
 
 ### Acceptance testing
 
