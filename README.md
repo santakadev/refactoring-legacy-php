@@ -256,3 +256,21 @@ require $routes[$uri];
 - Use routing library
 
 If necesary, create integration test to force new scripts to have a route.
+
+
+### Refactoring tools
+
+Check if your refactoring tools are working in all cases.
+
+For example, when renaming *do_stored_query* the call_user_func_array is refactored by the tool?:
+
+```php
+function do_stored_query()
+{
+  ...
+}
+
+call_user_func_array('do_stored_query', $args)
+```
+
+What happends when changing signature?
