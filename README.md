@@ -20,13 +20,13 @@ Alternatives to no refactor:
 
 Check if there is any "Install / Setup" documentation. If exists, try to follow and report and/or fix any issue you found in documentation or code
 
-## Strategies
+## Types of refactoring
 
-Socpe:
+By scope:
 - Full refactor
 - Partial refactor
 
-???:
+By ???:
 - Steady refactor
 - Start over
 
@@ -52,7 +52,7 @@ If you are refactoring the hole application to a new software arquitecture, focu
 - Breaking dependencies (Decoupling)
 - Split in modules (if necessary)
 
-Don't go too for at this point (microservices, cqrs, event sourcing, ddd, hexagonal) simply try to solve the bad design of the software that will let you on the future pivot to other arquitectures.
+Don't go too for at this point (microservices, CQRS, event sourcing, DDD, hexagonal) simply try to solve the bad design of the software that will let you on the future pivot to other arquitectures.
 
 ## Basic tools setup
 
