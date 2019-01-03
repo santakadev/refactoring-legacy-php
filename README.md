@@ -43,6 +43,8 @@ Small steps toward better (not perfect) design.
 
 - Cost / Reward chart (It has not to be in terms of money)
 - Core domain
+- Nee feature request
+- Bugfix
 
 ## New software arquitecture
 
