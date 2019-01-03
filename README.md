@@ -273,4 +273,4 @@ function do_stored_query()
 call_user_func_array('do_stored_query', $args)
 ```
 
-What happends when changing signature?
+What happens when changing signature?
