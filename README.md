@@ -192,10 +192,12 @@ Do not make public not exploit any security hold you found.
 
 - Create integration tests that covers all branches of stored procedure.
 - Once is fully tested, comment the stored procedure call.
-- Move and adaot stored procesure to PHP code.
-- Refactor the code. Try to eztract entities and value objects moving domain logic to them and create a repository for each entiry.
+- Move and adapt stored procesure to PHP code.
+- Refactor the code. Try to extract entities and value objects moving domain logic to them and create a repository for each entiry.
 - Remove commented call.
 - Drop stored procedure.
+
+TODO: Procedurs unit test?
 
 ### PHP and HTML toguether
 
