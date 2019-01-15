@@ -284,3 +284,7 @@ call_user_func_array('do_stored_query', $args)
 ```
 
 What happens when changing signature?
+
+### Constant based seam
+
+### Collect and share funny comments
