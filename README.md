@@ -288,3 +288,11 @@ What happens when changing signature?
 ### Constant based seam
 
 ### Collect and share funny comments
+
+### Extract Domain concepts
+
+Comments
+Naming
+Persistence
+Documentation
+UI
