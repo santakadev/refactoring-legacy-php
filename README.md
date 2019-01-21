@@ -291,8 +291,16 @@ What happens when changing signature?
 
 ### Extract Domain concepts
 
-Comments
-Naming
-Persistence
-Documentation
-UI
+- Comments
+- Naming
+- Persistence
+- Documentation
+- UI
+
+### Test ouput buffer
+
+```php
+ob_start();
+subject_under_test_call();
+$ouput = ob_get_clean();
+```
